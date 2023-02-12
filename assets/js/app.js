@@ -5,3 +5,7 @@ menuclick.addEventListener("click", () => {
     menu.style.marginLeft = "0px";
   }
 
+  setInterval(() => {
+    menu.style.marginLeft = "-150px";
+  }, 3000);
+});
