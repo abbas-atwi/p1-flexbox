@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 header {
   height: 100px;
@@ -155,7 +155,7 @@ q {
 .body-skills p {
   /* margin-bottom: 10px; */
 }
-@media (min-width: 450px) {
+@media (min-width: 600px) {
   .section-banner {
     flex-direction: column;
     height: 650px;
