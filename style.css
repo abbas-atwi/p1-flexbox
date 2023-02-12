@@ -163,4 +163,13 @@ q {
     width: 100%;
     height: 500px;
   }
+  .menu {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    background-color: red;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
 }
