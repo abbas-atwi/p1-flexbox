@@ -185,7 +185,9 @@ q {
     font-size: 30px;
   }
   .banner-description p {
-    font-size: 12px;
+    font-size: 15px;
+    color: #423e3e;
+    font-weight: 600;
   }
   nav {
     display: flex;
