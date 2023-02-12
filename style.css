@@ -165,11 +165,16 @@ q {
   }
   .menu {
     position: absolute;
-    width: 100%;
+    width: 50%;
+    left: 210px;
+    height: calc(100vh - 100px);
     top: 100px;
     background-color: red;
   }
   .menu ul {
     flex-direction: column;
+  }
+  .menu-burguer {
+    left: 290px;
   }
 }
