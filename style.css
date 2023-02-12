@@ -22,7 +22,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
+.menu-active {
+  margin-left: 0px;
+}
 .menu {
   flex: 1;
   display: flex;
@@ -47,7 +49,7 @@ header {
 
 .menu-burguer {
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: column;
   margin-top: 10px;
   top: 20px;
@@ -61,7 +63,7 @@ header {
   background-color: #000;
 }
 .logo {
-  width: 100px;
+  width: 200px;
   display: flex;
   align-items: center;
   color: #000;
@@ -117,7 +119,7 @@ main {
 }
 .banner-description p {
   margin-bottom: 20px;
-  color: #ddd;
+  color: #525050;
 }
 .banner-description a {
   display: inline-block;
@@ -128,7 +130,32 @@ main {
   border-radius: 2px;
   background-color: tomato;
 }
+@keyframes animate {
+  0% {
+    color: #999;
+    background-color: antiquewhite;
+    scale: 1;
+    transition: all 1s ease-out;
+  }
+  100% {
+    color: #525050;
+    background-color: antiquewhite;
+    scale: 1;
+    transition: all 1s ease-out;
+  }
+}
 
+.banner-description h2 {
+  display: inline-block;
+  font-size: 22px;
+  color: #525050;
+  padding: 10px;
+  border-radius: 5px;
+  animation-name: animate;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+  transition: all 1s ease-in;
+}
 q {
   font-style: italic;
   color: #999;
@@ -166,11 +193,26 @@ q {
     width: 100%;
     height: 500px;
   }
+  .logo {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+  }
   .menu {
     position: absolute;
     /* width: 80%; */
     height: calc(90vh - 100px);
     background-color: #000;
+  }
+  .banner-description {
+    align-items: center;
+  }
+  .banner-description q {
+    font-size: 30px;
+  }
+  .banner-description p {
+    font-size: 16px;
+    color: #000;
   }
   nav {
     display: flex;
