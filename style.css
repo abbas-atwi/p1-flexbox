@@ -130,20 +130,6 @@ main {
   border-radius: 2px;
   background-color: tomato;
 }
-@keyframes animate {
-  0% {
-    color: #999;
-    background-color: antiquewhite;
-    scale: 1;
-    transition: all 1s ease-out;
-  }
-  100% {
-    color: #525050;
-    background-color: antiquewhite;
-    scale: 1;
-    transition: all 1s ease-out;
-  }
-}
 
 .banner-description h2 {
   display: inline-block;
