@@ -26,7 +26,7 @@ header {
 .menu {
   flex: 1;
   display: flex;
-
+  margin-left: -150px;
   justify-content: flex-end;
   align-items: center;
 
@@ -49,12 +49,12 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  background-color: red;
+  top: 20px;
   width: 80px;
   height: 80px;
 }
 .bg {
-  width: 100%;
+  width: 60%;
   height: 5px;
   margin: 5px;
   background-color: #000;
