@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  /* overflow-x: hidden; */
+}
+header {
+  height: 100px;
+}
+.header-container {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+}
+.menu ul {
+  display: flex;
+}
+
+.menu a {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: normal;
+  color: #999;
+}
+.logo {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* banner main */
+main {
+  /* background-color: tomato; */
+  height: 100vh;
+}
+
+.section-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.section-banner {
+  display: flex;
+  /* flex-direction: column; */
+}
+.banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 300px;
+  color: #fff;
+  background-color: #000;
+}
+
+.banner-description {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.banner-description blockquote,
+.banner-description section {
+  flex: 1;
+}
+
+.banner-description blockquote {
+  text-align: center;
+  font-size: 3rem;
+}
+.banner-description p {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+.banner-description a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 2px;
+  background-color: tomato;
+}
+
+q {
+  font-style: italic;
+  color: #999;
+}
+/* img */
+
+.banner-images {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+}
+.banner-images img {
+  width: 100%;
+}
+
+.body-skills {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 50px;
+}
+
+.body-skills h1 {
+  /* margin-top: 10px; */
+}
+.body-skills p {
+  /* margin-bottom: 10px; */
+}
+@media (max-width: 450px) {
+  .section-banner {
+    flex-direction: column;
+    height: 650px;
+  }
+  .banner-list {
+    width: 100%;
+    height: 500px;
+  }
+}
