@@ -206,6 +206,7 @@ q {
     /* background-color: blue; */
   }
   .menu-burguer {
+    display: flex;
     left: 250px;
   }
 }
