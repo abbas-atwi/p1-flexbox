@@ -156,7 +156,7 @@ q {
 .body-skills p {
   /* margin-bottom: 10px; */
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .section-banner {
     flex-direction: column;
     height: 650px;
