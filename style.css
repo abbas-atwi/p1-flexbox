@@ -46,7 +46,6 @@ header {
   position: absolute;
   display: flex;
   flex-direction: column;
-  margin-left: 880px;
   margin-top: 10px;
   background-color: red;
   width: 80px;
